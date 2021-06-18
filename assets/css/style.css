@@ -1,0 +1,19 @@
+body{
+    margin:0;
+    border:0;
+    padding:0;
+}
+
+.imagen_superHero{
+    
+    width: 8%;
+}
+
+#Info_Heroes{
+    display: flex;
+  
+}
+
+.TarjetaHeroe, .chartContainer{
+    flex-wrap: wrap;
+}

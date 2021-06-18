@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- LINK Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- LINK a my style -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <title>SuperHero</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img class="imagen_superHero" src="./assets/img/sh2.jpg"
+                    alt="icono_SuperHero"> <span class="SuperHero_Nav">SuperHero</span></a>
+        </div>
+    </nav>
+    <div class="container my-5">
+        <header>
+            <img src="./assets/img/sh1.jpg" alt="" class="Imagen_header w-50 rounded mx-auto d-block">
+        </header>
+        <main class="mt-5">
+            <div class="row">
+                <div class="mb-4 col-12 ">
+                    <h2>Encuentra tu SuperHero</h2>
+                    <label for="nombre">Ingresa el número del SuperHero a buscar</label>
+                    <input type="search" id="inputBuscaHero" class="form-control">
+                    <button type="button" class="btn btn-primary mt-3 mb-5"> Buscar</button>
+                </div>
+
+                <div class="container-fluid col-md-6 m-0 Info_Heroes">
+                    <div id="TarjetaHeroe" class="card mb-4 d-none"></div>
+                     </div>
+                    <div id="chartContainer" class="col-lg-6 d-none mb-sm-4"></div>
+
+               
+
+            </div>
+
+
+        </main>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous">
+    </script>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
