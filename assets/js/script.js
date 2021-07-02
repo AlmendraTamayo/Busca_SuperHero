@@ -24,7 +24,7 @@ $(document).ready(() => {
     const ObtieneAlHeroe = (NumeroDelHeroe) => {
       $.ajax({
           type: 'GET',
-          url: "https://us-central1-crud-vue-firebase-3af18.cloudfunctions.net/instrument/superhero/10222760568656845/" + NumeroDelHeroe,
+          url: "https://superheroapi.com/api.php/10222760568656845/" + NumeroDelHeroe,
           success: (InfoHeroe) => {
             const NombreDelHeroe = InfoHeroe.name;
             const tarjetaDelHeroe = [];
